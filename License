@@ -1,0 +1,16 @@
+
+---
+
+## 一键运行命令
+
+在仓库根目录下执行：
+
+```bash
+# 1. 安装依赖
+pip install -r requirements.txt
+
+# 2. 生成全部三张图和 Table 2 输出
+python code/generate_all_figures.py
+
+# 3. 初始化/汇总临床数据（先填好 CSV 后运行）
+python code/clinical_data_compiler.py
